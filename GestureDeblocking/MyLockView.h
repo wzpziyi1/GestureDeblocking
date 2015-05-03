@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class MyLockView;
+@protocol  MyLockViewDelegate<NSObject>
+
+@optional
+- (void)LockView:(MyLockView *)lockView path:(NSString *)path;
+@end
+
 @interface MyLockView : UIButton
+
+@property (nonatomic, weak)id<MyLockViewDelegate> delegate;
 
 @end

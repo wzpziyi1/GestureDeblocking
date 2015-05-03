@@ -15,6 +15,8 @@
 		0961D8A21AF5D5630015687A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0961D8A11AF5D5630015687A /* Images.xcassets */; };
 		0961D8A51AF5D5630015687A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0961D8A31AF5D5630015687A /* LaunchScreen.xib */; };
 		0961D8B11AF5D5630015687A /* GestureDeblockingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961D8B01AF5D5630015687A /* GestureDeblockingTests.m */; };
+		0961D8BC1AF5D5C20015687A /* MyCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961D8BB1AF5D5C20015687A /* MyCircleButton.m */; };
+		0961D8BF1AF5D9D10015687A /* MyLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0961D8BE1AF5D9D10015687A /* MyLockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		0961D8AA1AF5D5630015687A /* GestureDeblockingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureDeblockingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0961D8AF1AF5D5630015687A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0961D8B01AF5D5630015687A /* GestureDeblockingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureDeblockingTests.m; sourceTree = "<group>"; };
+		0961D8BA1AF5D5C20015687A /* MyCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCircleButton.h; sourceTree = "<group>"; };
+		0961D8BB1AF5D5C20015687A /* MyCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCircleButton.m; sourceTree = "<group>"; };
+		0961D8BD1AF5D9D10015687A /* MyLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLockView.h; sourceTree = "<group>"; };
+		0961D8BE1AF5D9D10015687A /* MyLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				0961D8A31AF5D5630015687A /* LaunchScreen.xib */,
 				0961D8981AF5D5630015687A /* GestureDeblocking.xcdatamodeld */,
 				0961D8911AF5D5630015687A /* Supporting Files */,
+				0961D8BA1AF5D5C20015687A /* MyCircleButton.h */,
+				0961D8BB1AF5D5C20015687A /* MyCircleButton.m */,
+				0961D8BD1AF5D9D10015687A /* MyLockView.h */,
+				0961D8BE1AF5D9D10015687A /* MyLockView.m */,
 			);
 			path = GestureDeblocking;
 			sourceTree = "<group>";
@@ -225,7 +235,9 @@
 				0961D89A1AF5D5630015687A /* GestureDeblocking.xcdatamodeld in Sources */,
 				0961D8971AF5D5630015687A /* AppDelegate.m in Sources */,
 				0961D89D1AF5D5630015687A /* ViewController.m in Sources */,
+				0961D8BF1AF5D9D10015687A /* MyLockView.m in Sources */,
 				0961D8941AF5D5630015687A /* main.m in Sources */,
+				0961D8BC1AF5D5C20015687A /* MyCircleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
